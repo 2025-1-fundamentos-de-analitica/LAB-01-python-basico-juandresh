@@ -33,4 +33,3 @@ def pregunta_11():
 
         return ord
 
-print(pregunta_11())

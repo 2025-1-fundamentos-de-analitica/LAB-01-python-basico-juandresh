@@ -50,5 +50,5 @@ def pregunta_06():
 
         return items
     
-print(pregunta_06())
+
 

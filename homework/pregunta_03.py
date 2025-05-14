@@ -31,4 +31,3 @@ def pregunta_03():
 
         return items
 
-print(pregunta_03())

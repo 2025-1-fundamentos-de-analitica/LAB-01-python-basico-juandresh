@@ -42,4 +42,3 @@ def pregunta_09():
 
         return dic_sort
 
-print(pregunta_09())

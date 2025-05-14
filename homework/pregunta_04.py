@@ -47,4 +47,4 @@ def pregunta_04():
 
         return items
     
-print(pregunta_04())
+

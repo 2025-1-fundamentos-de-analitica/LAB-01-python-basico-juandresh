@@ -37,5 +37,5 @@ def pregunta_10():
 
         return lista
     
-print(pregunta_10())
+
 
