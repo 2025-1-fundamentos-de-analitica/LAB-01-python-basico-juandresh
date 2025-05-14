@@ -15,7 +15,7 @@ def pregunta_02():
     [('A', 8), ('B', 7), ('C', 5), ('D', 6), ('E', 14)]
 
     """
-    with open('files\input/data.csv', 'r') as datos:
+    with open('files/input/data.csv', 'r') as datos:
         letras = {}
         for reg in datos:
             col = reg.split('\t')

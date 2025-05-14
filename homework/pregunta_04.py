@@ -26,7 +26,7 @@ def pregunta_04():
      ('12', 3)]
 
     """
-    with open('files\input/data.csv', 'r') as datos:
+    with open('files/input/data.csv', 'r') as datos:
         
         conteo = {}
 

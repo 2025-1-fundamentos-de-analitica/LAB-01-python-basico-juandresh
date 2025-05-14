@@ -16,7 +16,7 @@ def pregunta_01():
     """
     acum = 0
 
-    with open('files\input/data.csv', 'r') as datos:
+    with open('files/input/data.csv', 'r') as datos:
 
         for line in datos:
             columnas = line.split('\t')

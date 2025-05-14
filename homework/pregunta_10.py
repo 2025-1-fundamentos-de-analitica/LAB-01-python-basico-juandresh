@@ -21,7 +21,7 @@ def pregunta_10():
 
     """
 
-    with open('files\input/data.csv','r') as datos:
+    with open('files/input/data.csv','r') as datos:
 
         lista = []
         for row in datos:

@@ -24,7 +24,7 @@ def pregunta_09():
      'jjj': 18}}
 
     """
-    with open('files\input/data.csv', 'r') as datos:
+    with open('files/input/data.csv', 'r') as datos:
         dic = {}
         for row in datos:
             col = row.split('\t')[4]

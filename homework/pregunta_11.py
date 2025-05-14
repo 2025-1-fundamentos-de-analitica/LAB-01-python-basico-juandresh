@@ -16,7 +16,7 @@ def pregunta_11():
 
 
     """
-    with open('files\input/data.csv', 'r') as datos:
+    with open('files/input/data.csv', 'r') as datos:
         dic = {}
 
         for row in datos:

@@ -27,7 +27,7 @@ def pregunta_08():
      (9, ['A', 'B', 'C', 'E'])]
 
     """
-    with open('files\input/data.csv', 'r') as datos:
+    with open('files/input/data.csv', 'r') as datos:
         dic = {}
         for row in datos:
             col = row.split('\t')
