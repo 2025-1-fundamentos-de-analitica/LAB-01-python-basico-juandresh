@@ -20,3 +20,22 @@ def pregunta_10():
 
 
     """
+
+    with open('files\input/data.csv','r') as datos:
+
+        lista = []
+        for row in datos:
+
+            columns = row.split('\t')
+
+            letra = columns[0]
+            el1 = columns[3].split(',')
+            el2 = columns[4].split(',')
+
+            tupl = (letra, len(el1), len(el2))
+            lista.append(tupl)
+
+        return lista
+    
+print(pregunta_10())
+
